@@ -1,0 +1,32 @@
+.Inicio {
+    border-radius: 5%;
+    height: 735px;
+    width: 300px;
+}
+
+main.contenido {
+    padding: 20px;
+}
+
+.biografia {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.Inicio {
+    flex: 1;
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.texto-biografia {
+    flex: 2;
+    padding: 20px;
+}
